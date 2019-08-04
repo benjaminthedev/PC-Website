@@ -140,7 +140,7 @@ get_header(); ?>
 		<div class="row">
 		<?php
 		global $post;
-		$args = array( 'posts_per_page' =>3, 'post_type'=> 'service','orderby'=>'menu_order','order'=>'ASC' );
+		$args = array( 'posts_per_page' =>6, 'post_type'=> 'service','orderby'=>'menu_order','order'=>'ASC' );
 		$myposts = get_posts( $args );
 		foreach( $myposts as $post ) : setup_postdata($post); ?>
 			<div class="col-12 col-md-4">
@@ -196,9 +196,9 @@ get_header(); ?>
 						</div>
 						<div class="testimonial-content">
 							<p><?php the_field('client_comments'); ?></p>
-							<a href="<?php the_permalink();?>" class="more-btn">
+							<!-- <a href="<?php //the_permalink();?>" class="more-btn">
 								Read More
-							</a>
+							</a> -->
 						</div>
 					</div>
 				<?php endforeach; ?>
@@ -210,6 +210,48 @@ get_header(); ?>
 </section>
 
 <!-- Testimonial Section End -->
+
+
+
+
+<!-- Logos Section -->
+
+<section class="logo-section py-7">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-head text-center">
+					<h3>Our Clients</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="logo-carousel">
+				<?php
+				global $post;
+				$args = array( 'posts_per_page' =>-1, 'post_type'=> 'logos','orderby'=>'menu_order','order'=>'ASC');
+				$myposts = get_posts( $args );
+				foreach( $myposts as $post ) : setup_postdata($post); ?>
+					<div class="logo-box">
+						<div class="logo-meta">
+							<div class="display-table">
+								<div class="display-table-cell">
+									<img src="<?php the_field('logo'); ?>" class="logo-imgs">
+									<!-- <h3><?php //the_title(); ?></h3> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				<?php endforeach; ?>
+				<?php wp_reset_query(); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Logos Section End -->
 
 
 <?php get_footer(); ?>
