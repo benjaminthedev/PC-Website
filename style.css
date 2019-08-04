@@ -1,14 +1,13 @@
 /*!
 Theme Name: Pioneer Cuts
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
+Theme URI: https://benjaminthedev.github.io/
+Author: Benjamin Dordoigne AKA BenjaminTheDev
+Author URI: https://benjaminthedev.github.io/
 Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: pioneer-cuts
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
 
@@ -71,7 +70,7 @@ img{
 #page{
 	overflow: hidden;
 }
-.container{
+.container{	
 	max-width:1490px;
 }
 img.itar-logo {
@@ -84,6 +83,12 @@ img.itar-logo {
 .page-template-blog .blog-link{
 	color: #fff;
 }
+
+.page-template-blog .blog-link:hover{
+	color: #41e18c;
+}
+
+
 .telephone {
     float: right;
     margin-top: -60px;
