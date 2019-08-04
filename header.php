@@ -48,6 +48,9 @@
 	                        ));
 	                     ?>
 					</div>
+					<div class="telephone">
+							<i class="fa fa-phone"></i> <a id="topbar-phone" href="tel:+15177984988">(517) 798-4988</a>
+					</div>
 				</div>
 				<div class="col-12 col-md-2 text-right align-self-center mobile-hide">
 					<a id="form-btn" href="<?php the_field('header_btn_link','options');?>" class="header-btn">

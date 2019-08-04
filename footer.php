@@ -28,6 +28,9 @@
 						<div class="contact-left">
 							<?php the_field('contact_left_content','options'); ?>
 						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri();?>/assets/images/ITAR.png" alt="ATIR" class="itar-logo" />
+						</div>
 					</div>
 					<div class="col-12 col-md-7">
 						<div class="contact-form" style="background:url(<?php echo get_template_directory_uri();?>/assets/images/contact-bg.png) no-repeat center center/cover;">
