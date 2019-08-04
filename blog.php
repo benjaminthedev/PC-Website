@@ -27,10 +27,10 @@ if( !empty($image) ): ?>
 		$myposts = get_posts( $args );
 		foreach( $myposts as $post ) : setup_postdata($post); ?>
 			<div class="col-12 col-md-4">
-				<div class="service-box" style="background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center/cover;">
+				<div class="service-box" style="background: linear-gradient(rgba(189, 143, 143, 0.5), rgba(2,2,2,0.5)), url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center/cover;">
 					<div class="display-table">
 						<div class="display-table-bottom">
-							<a href="<?php the_permalink();?>">
+							<a href="<?php the_permalink();?>" class="blog-link">
 								<?php the_title(); ?>
                                 <php the_excerpt(); ?>
 								<i class="fa fa-long-arrow-right"></i>
