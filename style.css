@@ -81,10 +81,9 @@ img.itar-logo {
 .owl-dots {
     display: none;
 }
-
-
-
-
+.page-template-blog .blog-link{
+	color: #fff;
+}
 .telephone {
     float: right;
     margin-top: -60px;
