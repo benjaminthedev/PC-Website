@@ -83,7 +83,7 @@ if( !empty($image) ): ?>
 				<div class="cta-right">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<a id="form-btn-four" href="<?php the_field('cta_btn_link', 24);?>" class="site-btn">
+							<a  href="<?php the_field('cta_btn_link', 24);?>" class="site-btn">
 								Get Free Quote
 							</a>
 						</div>
