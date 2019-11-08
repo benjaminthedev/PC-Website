@@ -14,29 +14,36 @@
 	<footer id="colophon" class="site-footer">
 		<div class="footer-top">
 			<div class="container">
+
+
 				<div class="row">
-					<div class="col-12 col-md-6 offset-md-3">
-						<div class="section-head text-center">
-							<h3><?php the_field('contact_top_title','options'); ?></h3>
-							<h1><?php the_field('contact_title','options'); ?></h1>
+
+						<div class="col-12 col-md-4">
+
+								<h3 class="footer-headings"><?php the_field('contact_title','options'); ?></h3>
 							<p><?php the_field('contact_sub_title','options'); ?></p>
+
+							<a class="site-btn" href="/form/">Get A Quote Now</a>
 						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12 col-md-5">
+
+
+					<div class="col-12 col-md-4">
 						<div class="contact-left">
 							<?php the_field('contact_left_content','options'); ?>
 						</div>
-						<div>
-							<img src="<?php echo get_template_directory_uri();?>/assets/images/ITAR.png" alt="ATIR" class="itar-logo" />
-						</div>
 					</div>
-					<div class="col-12 col-md-7">
-						<div class="contact-form" style="background:url(<?php echo get_template_directory_uri();?>/assets/images/contact-bg.png) no-repeat center center/cover;">
-							<?php the_field('contact_right_content','options'); ?>
-						</div>
+
+
+					<div class="col-12 col-md-4">
+						<h3 class="footer-headings">Follow Us</h3>
+
+						<ul class="social-media-icons">
+								<li><a href="https://www.facebook.com/pioneercuts/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://twitter.com/pioneercuts	" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+								<!-- <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li> -->
+						</ul>
 					</div>
+
 				</div>
 			</div>
 		</div>
@@ -64,6 +71,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script> (function () { window['GoogleAnalyticsObject'] = 'ga'; window['ga'] = window['ga'] || function () { (window['ga'].q = window['ga'].q || []).push(arguments) }; if (window.ga) { ga('create', 'UA-82762905-1', 'auto'); window.addEventListener('message', function (event) { var a = ~event.origin.indexOf('digital-quote.com'); var b = event.data.type === 'rfq_submit_success'; if (a && b) { window.location.replace("https://www.pioneercuts.com/success"); } }, false); } })(); </script>
 </body>
 </html>

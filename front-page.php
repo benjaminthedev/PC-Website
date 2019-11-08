@@ -15,7 +15,7 @@ get_header(); ?>
 					<img class="banner-gear-image" src="<?php echo get_template_directory_uri();?>/assets/images/big-gear.png" alt="">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<a id="form-btn-two" href="" class="upload-btn">
+							<a href="/form/" class="upload-btn">
 								<img src="<?php echo get_template_directory_uri();?>/assets/images/cloud-upload.png" alt="">
 								<?php the_field('upload_file_title'); ?>
 							</a>
@@ -107,14 +107,17 @@ get_header(); ?>
 			<div class="col-12 col-md-8 col-lg-6 align-self-center">
 				<div class="cta-left">
 					<?php the_field('cta_left_content'); ?>
-				</div>				
+
+									</div>				
 			</div>
 			<div class="col-12 col-md-4 col-lg-6 align-self-center">
+
+
 				<div class="cta-right">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<a id="form-btn-four" href="<?php the_field('cta_btn_link');?>" class="site-btn">
-								Get Free Quote
+							<a  href="<?php the_field('cta_btn_link');?>" class="site-btn">
+								Get The Ebook!
 							</a>
 						</div>
 					</div>
@@ -123,6 +126,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+
 
 <!-- Call to Action End -->
 

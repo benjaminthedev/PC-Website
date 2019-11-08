@@ -86,20 +86,10 @@ img {
 	max-width: 1490px;
 }
 
-.itar-logo{
-	width:20%;
-	float: right;
-}
-a.site-btn.white {
-    color: #fff;
-}
-a.site-btn.white:hover {
-    color: blue;
-}
-/* img.itar-logo {
+img.itar-logo {
 	width: 20%;
 	margin-top: 60px;
-} */
+}
 
 .owl-dots {
 	display: none;
@@ -407,44 +397,10 @@ img.logo-imgs {
 Header Style Start
 ==============================
 */
-/*Sub Menu*/
 
-ul.sub-menu {
-    display: none;
+.itar-logo{
+	width:30%;
 }
-
-.sub-menu {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-
-  padding: 12px 16px;
-  z-index: 1;
-  transition: all 0.5s ease;
-  border: 6px solid #EEF0F0;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-.menu-item-has-children:hover .sub-menu {
-  display: block;
-  
-}
-
-ul.sub-menu li {
-    float: left;
-    margin: 5px;
-    clear: both;
-}
-
-ul.sub-menu li a{
-	text-align:center;
-	color: #2f313c !important;
-}
-
-/* li#menu-item-210:hover .sub-menu {
-    display: block;
-} */
 
 .site-header {
 	position: fixed;
@@ -510,7 +466,6 @@ ul.sub-menu li a{
 
 .header-btn {
 	font-size: 17px;
-	width:60%;
 	color: #fff;
 	display: block;
 	font-weight: 600;
@@ -850,15 +805,6 @@ Homepage Style Start
 /*Banner End*/
 
 /*Our Company */
-.our-company-videos  {
-	/* height: 590px; */
-	height: 340px;
-	width: 100%;
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-	background: #fff;
-	padding: 8px;
-	border-radius: 5px;
-}
 
 .our-company iframe {
 	/* height: 590px; */
@@ -988,9 +934,6 @@ Homepage Style Start
 		margin-top: 25px;
 	}
 
-	.service-list-box:nth-child(3) {
-		margin-bottom: 95px;
-	}	
 	.our-company-right .site-btn {
 		margin-top: 60px;
 	}

@@ -17,7 +17,7 @@ if( !empty($image) ): ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-5 align-self-center order-lg-first">
-				<?php the_field('video_link', 24); ?>
+				<?php the_field('video_link'); ?>
 			</div>
 			<div class="col-12 col-lg-7 align-self-center order-first">
 				<div class="row">
@@ -28,12 +28,12 @@ if( !empty($image) ): ?>
 								<h2><?php the_field('our_company_title', 24); ?></h2>
 							</div>
 							<div class="service-list">
-							<?php if( have_rows('service_lists', 24) ): ?>
-							<?php while ( have_rows('service_lists', 24) ) : the_row(); ?>
+							<?php if( have_rows('service_lists') ): ?>
+							<?php while ( have_rows('service_lists') ) : the_row(); ?>
 								<div class="service-list-box">
 									<div class="display-table">
 										<div class="display-table-cell">
-											<?php the_sub_field('service_content', 24);?>
+											<?php the_sub_field('service_content');?>
 										</div>
 									</div>
 								</div>
@@ -131,7 +131,7 @@ if( !empty($image) ): ?>
 				<div class="cta-right">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<a id="form-btn-four" href="<?php the_field('cta_btn_link', 24);?>" class="site-btn">
+							<a  href="<?php the_field('cta_btn_link', 24);?>" class="site-btn">
 								Get Free Quote
 							</a>
 						</div>
