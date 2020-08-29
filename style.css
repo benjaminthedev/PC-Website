@@ -90,17 +90,14 @@ img {
 	width:20%;
 	float: right;
 }
-a.site-btn.white {
+a.site-btn.white,
+a#form-btn{
     color: #fff;
 }
-a.site-btn.white:hover {
+a.site-btn.white:hover,
+a#form-btn:hover {
     color: blue;
 }
-/* img.itar-logo {
-	width: 20%;
-	margin-top: 60px;
-} */
-
 .owl-dots {
 	display: none;
 }
@@ -1468,12 +1465,20 @@ li.staff-member {
 	transition: transform .3s, -webkit-transform .3s
 }
 
-li.staff-member img {
+/* li.staff-member img {
 	width: 50%;
 	height: 100%;
 	border-radius: 150px;
 	box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
 	margin-top: 50px;
+} */
+
+li.staff-member img {
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
 }
 
 li.staff-member:hover {
