@@ -38,9 +38,33 @@
 						<h3 class="footer-headings">Follow Us</h3>
 
 						<ul class="social-media-icons">
-								<li><a href="https://www.facebook.com/pioneercuts/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="https://twitter.com/pioneercuts	" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+								<!-- <li><a href="https://www.facebook.com/pioneercuts/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://twitter.com/pioneercuts" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li> -->
 								<!-- <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li> -->
+
+								<li>
+									<a href="https://www.facebook.com/pioneercuts" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+
+								<li>
+									<a href="https://twitter.com/pioneercuts" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+
+								<li>
+									<a href="https://www.linkedin.com/company/pioneer-cuts" target="_blank">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+
+								<li>
+									<a href="https://www.pinterest.ch/birdsall2009/" target="_blank">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</li>
 						</ul>
 					</div>
 
@@ -64,7 +88,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 
 	</footer><!-- #colophon -->
