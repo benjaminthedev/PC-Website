@@ -42,16 +42,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-1 align-self-center">
-					<div class="logo">
-            			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            				<img src="<?php the_field('site_logo','options'); ?>" alt="">
-            			</a>
+			
             			<div class="mobile-menu">
             				<span></span>
             				<span></span>
             				<span></span>
             			</div>
-					</div>
+					
 				</div>
 				<div class="col-12 col-md-8 align-self-center mobile-hide">
 					<div class="main-menu">
@@ -60,17 +57,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	                        ));
 	                     ?>
 					</div>
+
+
 					<div class="telephone">
 							<i class="fa fa-phone"></i> <a id="topbar-phone" href="tel:+15177984988">(517) 798-4988</a>
 					</div>
 
 				</div>
 				<div class="col-12 col-md-3 text-right align-self-center mobile-hide">
-					<img src="https://www.pioneercuts.com/wp-content/uploads/2019/09/ITAR.png"  alt="ITAR Logo" class="itar-logo"/>
-					<a href="<?php the_field('header_btn_link','options');?>" class="header-btn">
+					<!-- <img src="https://wordpress-336467-1461132.cloudwaysapps.com/wp-content/uploads/2019/11/ITAR.png"  alt="ITAR Logo" class="itar-logo"/> -->
+					<a id="form-btn" href="<?php the_field('header_btn_link','options');?>" class="header-btn">
 						<?php the_field('header_btn_title','options'); ?>
 					</a>
 				</div>
+				
+					<div class="logo">
+            			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            				<img src="<?php the_field('site_logo','options'); ?>" alt="Pioneer Cuts Logo">
+            			</a>
+					</div>		
+
+					<style>
+					.logo {
+						margin: 0 auto;
+					}
+
+					.logo a img {
+						width: 170px;
+						margin: -10px 0px 20px 10px;
+					}
+
+</style>
+
 			</div>
 		</div>
 	</header>
@@ -93,8 +111,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 
 		<div class="quote-btn">
-			<a href="<?php the_field('header_btn_link','options');?>" class="header-btn">
-				<?php the_field('header_btn_title','options'); ?>
+			<a id="form-btn" href="" class="header-btn">
+						Get A Quote Now					
 			</a>
 		</div>
 	</div>
