@@ -15,7 +15,7 @@ get_header(); ?>
 					<img class="banner-gear-image" src="<?php echo get_template_directory_uri();?>/assets/images/big-gear.png" alt="">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<a href="/form/" class="upload-btn">
+							<a href="" class="upload-btn" id="form-btn">
 								<img src="<?php echo get_template_directory_uri();?>/assets/images/cloud-upload.png" alt="">
 								<?php the_field('upload_file_title'); ?>
 							</a>

@@ -44,7 +44,7 @@ if( !empty($image) ): ?>
 					<div class="display-table">
 						<div class="display-table-cell">
 							<a href="<?php the_field('cta_btn_link', 24);?>" class="site-btn">
-								Get Free Quote
+								Get The Ebook!
 							</a>
 						</div>
 					</div>
