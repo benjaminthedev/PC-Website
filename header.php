@@ -73,21 +73,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 					<div class="logo">
             			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            				<img src="<?php the_field('site_logo','options'); ?>" alt="Pioneer Cuts Logo">
+            				<!-- <img src="<?php the_field('site_logo','options'); ?>" alt="Pioneer Cuts Logo"> -->
+							<img src="https://pioneercuts.com/wp-content/uploads/2020/10/Pioneer-Cuts-logo-white.png" alt="Pioneer Cuts Logo">
             			</a>
 					</div>		
 
 					<style>
-					.logo {
-						margin: 0 auto;
-					}
+				
 
-					.logo a img {
-						width: 170px;
-						margin: -10px 0px 20px 10px;
-					}
-
-</style>
+					</style>
 
 			</div>
 		</div>

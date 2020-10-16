@@ -80,7 +80,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1><?php the_field('capabilities_title'); ?></h1>
+				<h2 class="capabilities__heading"><?php the_field('capabilities_title'); ?></h2>
 			</div>
 		</div>
 		<div class="row">
@@ -138,7 +138,7 @@ get_header(); ?>
 			<div class="col-12 col-md-6 offset-md-3 service-head text-center">
 				<h1><?php the_field('service_section_title'); ?></h1>
 				<p><?php the_field('service_section_sub_title'); ?></p>
-				<a class="site-btn" href="<?php the_field('all_service_btn_link'); ?>">All Services</a>
+				<!-- <a class="site-btn" href="<?php //the_field('all_service_btn_link'); ?>">All Services</a> -->
 			</div>
 		</div>
 		<div class="row">

@@ -29,7 +29,7 @@
 							<?php the_field('contact_left_content','options'); ?>
 						</div>
 						<div>
-							<img src="<?php echo get_template_directory_uri();?>/assets/images/ITAR.png" alt="ATIR" class="itar-logo" />
+							<!-- <img src="<?php //echo get_template_directory_uri();?>/assets/images/ITAR.png" alt="ATIR" class="itar-logo" /> -->
 						</div>
 					</div>
 					<div class="col-12 col-md-7">
