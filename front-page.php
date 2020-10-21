@@ -175,8 +175,8 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-12">
 				<div class="section-head text-center">
-					<h3><?php the_field('testimonial_top_title');?></h3>
-					<h1><?php the_field('testimonial_title'); ?></h1>
+					<!-- <h3><?php //the_field('testimonial_top_title');?></h3> -->
+					<h2><?php the_field('testimonial_title'); ?></h2>
 				</div>
 			</div>
 		</div>
@@ -225,7 +225,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-12">
 				<div class="section-head text-center">
-					<h3>Our Clients</h3>
+					<h2>Our Clients</h2>
 				</div>
 			</div>
 		</div>

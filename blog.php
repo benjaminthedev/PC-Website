@@ -18,12 +18,12 @@ if( !empty($image) ): ?>
 <section class="pages py-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-12">
+
                 
             
         <?php
 		global $post;
-		$args = array( 'posts_per_page' =>6, 'post_type'=> 'post','orderby'=>'menu_order','order'=>'ASC' );
+		$args = array( 'posts_per_page' =>40, 'post_type'=> 'post', 'order'=>'DESC' );
 		$myposts = get_posts( $args );
 		foreach( $myposts as $post ) : setup_postdata($post); ?>
 			<div class="col-12 col-md-4">
@@ -46,7 +46,7 @@ if( !empty($image) ): ?>
 
 
 
-			</div>
+
 		</div>
     </div>
 </section>
