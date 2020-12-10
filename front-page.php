@@ -74,6 +74,48 @@ get_header(); ?>
 
 <!-- Our Company Section End -->
 
+
+
+<!-- About Us Section -->
+
+<div class="about__usWrapper"  style="background:url(https://pioneercuts.com/wp-content/uploads/2019/07/banner-bg.png) no-repeat center center/cover;">
+
+	<div class="about__usLeftBox">
+		<h3>About Us</h3>
+
+		<p>Quick turn CNC machining services are complex and difficult. The process involves intricate
+		machinery and requires keen attention to detail. As a result, knowing which tools to use and
+		how to set up a workpiece properly takes years of dedicated practice. At Pioneer Cuts, we work
+		as an experienced team of machinists who can safely operate lathes, mills, grinders, and
+		routers.</p>
+
+				<p class="mb-5">Our crew processes a wide range of materials to meet extremely precise specifications, with
+		our primary focus on accuracy and efficiency from start to finish. We manufacture thousands of
+		parts and prototypes using our state-of-the-art quick turn CNC machining equipment, all while
+		staying abreast the latest industry trends to give you the cutting edge with a reliable,
+		established resource.</p>
+
+<a href="/about/">Know More</a>
+
+
+
+	</div>
+
+	<div class="about__usRightBox">
+								
+		<img src="https://pioneercuts.com/wp-content/uploads/2019/11/P1610799.jpg" alt="CNC Machine Services" class="about__usImage"/>
+
+
+	</div>
+
+</div>
+
+
+
+<!-- About Us Section End-->
+
+
+
 <!-- Capabilities Section -->
 
 <section class="capabilities-section text-center py-7">
@@ -148,7 +190,7 @@ get_header(); ?>
 		$myposts = get_posts( $args );
 		foreach( $myposts as $post ) : setup_postdata($post); ?>
 			<div class="col-12 col-md-4">
-				<div class="service-box" style="background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center/cover;">
+				<div class="service-box" style="background:rgba(0, 0, 0, 0.96);background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center/cover;">
 					<div class="display-table">
 						<div class="display-table-bottom">
 							<a href="<?php the_permalink();?>">
