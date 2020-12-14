@@ -17,8 +17,8 @@
 				<div class="row">
 					<div class="col-12 col-md-6 offset-md-3">
 						<div class="section-head text-center">
-							<h3><?php the_field('contact_top_title','options'); ?></h3>
-							<h1><?php the_field('contact_title','options'); ?></h1>
+							<!-- <h3><?php //the_field('contact_top_title','options'); ?></h3> -->
+							<h2><?php the_field('contact_title','options'); ?></h2>
 							<p><?php the_field('contact_sub_title','options'); ?></p>
 						</div>
 					</div>
@@ -109,7 +109,7 @@
 		 color:#fff;
 	 }
 	footer.footer__final ul.social__media li a:hover{
-		 color:#999;
+		 color: #4169e1;
 	 }
 
 
@@ -126,7 +126,8 @@
 		 color: #fff;
 	 }
 	 ul.footer__servicesMenu li a:hover{
-		 color: #999;
+		 color: #4169e1;
+		 text-decoration: none;
 	 }	 
 
 .footer__contentWrapper a{
@@ -138,7 +139,7 @@
 		text-align: center;
 		background: #1d1f2c;
 		color:#fff;
-		padding: 20px 0;
+		/* padding: 20px 0; */
 	}
 
 
@@ -148,6 +149,13 @@
 	.footer__postWrapper {
     	display: flex;
 	}
+
+
+	.footer__contentWrapper h5 a:hover, 
+	a.mail-link-footer:hover {
+    color: #4169e1;
+    text-decoration: none;
+}
 </style>
 
 

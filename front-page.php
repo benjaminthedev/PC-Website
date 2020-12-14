@@ -45,7 +45,7 @@ get_header(); ?>
 					<div class="col-12">
 						<div class="our-company-right">
 							<div class="our-company-head">
-								<h3><?php the_field('top_title'); ?></h3>
+								<h2><?php the_field('top_title'); ?></h2>
 								<h2><?php the_field('our_company_title'); ?></h2>
 							</div>
 							<div class="service-list">
@@ -61,7 +61,7 @@ get_header(); ?>
 							<?php endwhile; else : endif; ?>
 							</div>
 							<a href="<?php the_field('more_btn_link');?>" class="site-btn">
-								Read More
+								How We Can Help
 							</a>
 						</div>
 					</div>
@@ -81,7 +81,7 @@ get_header(); ?>
 <div class="about__usWrapper"  style="background:url(https://pioneercuts.com/wp-content/uploads/2019/07/banner-bg.png) no-repeat center center/cover;">
 
 	<div class="about__usLeftBox">
-		<h3>About Us</h3>
+		<h2>About Us</h2>
 
 		<p>Quick turn CNC machining services are complex and difficult. The process involves intricate
 		machinery and requires keen attention to detail. As a result, knowing which tools to use and
@@ -95,7 +95,7 @@ get_header(); ?>
 		staying abreast the latest industry trends to give you the cutting edge with a reliable,
 		established resource.</p>
 
-<a href="/about/">Know More</a>
+			<a href="/about/" class="site-btn">Know More</a>
 
 
 
@@ -122,7 +122,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="capabilities__heading"><?php the_field('capabilities_title'); ?></h2>
+				<h2>Capabilities<?php //the_field('capabilities_title'); ?></h2>
 			</div>
 		</div>
 		<div class="row">
@@ -178,7 +178,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 offset-md-3 service-head text-center">
-				<h1><?php the_field('service_section_title'); ?></h1>
+				<h2><?php the_field('service_section_title'); ?></h2>
 				<p><?php the_field('service_section_sub_title'); ?></p>
 				<!-- <a class="site-btn" href="<?php //the_field('all_service_btn_link'); ?>">All Services</a> -->
 			</div>
@@ -238,7 +238,7 @@ get_header(); ?>
 							<div class="display-table">
 								<div class="display-table-cell">
 									<img src="<?php the_field('client_photo'); ?>" alt="">
-									<h3><?php the_title(); ?></h3>
+									<h2><?php the_title(); ?></h2>
 									<span><?php the_field('client_position'); ?></span>
 								</div>
 							</div>

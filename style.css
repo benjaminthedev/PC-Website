@@ -912,10 +912,11 @@ ul.sub-menu li a {
     text-decoration: underline;
 }
 .service-box a i.fa {
-    float: right;
+    /* float: right;
     position: relative;
     top: 10px;
-    color: #4169e1;
+    color: #4169e1; */
+    display: none;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .service-box {
@@ -1108,6 +1109,12 @@ p.name {
 p.job {
     font-weight: 700;
     font-size: 19px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #292a30;
+    line-height: 50px;
 }
 .page-template-contactus .contact-left h3 {
     display: none;
@@ -1439,20 +1446,25 @@ ul.social__media li a:hover {
     /* background: #1d1f2c; */
     display: flex;
     color: #fff;
-    padding: 50px;
+    padding:0 50px ;
 }
 
 .about__usWrapper p {
     font-weight: 100;
+    font-size: 17px;
 }
 
-.about__usLeftBox a{
+/* .about__usLeftBox a{
     background: #4169e1;
     padding: 20px 30px;
     margin-top: 20px;
     border-radius: 5px;
     color:#fff;
     text-decoration: none;
+} */
+
+.about__usLeftBox .site-btn{
+    margin:0;
 }
 
 .about__usRightBox{
@@ -1460,7 +1472,7 @@ ul.social__media li a:hover {
 }
 
 .about__usRightBox img.about__usImage {
-    width:100vw;
+    width:50vw;
     /* border: 5px solid #fff; */
     -webkit-box-shadow: 10px 10px 5px 0px rgba(65, 105, 225, 0.35);
 -moz-box-shadow: 10px 10px 5px 0px rgba(65, 105, 225, 0.35);
@@ -1471,10 +1483,15 @@ border-radius: 10px;
 .about__usLeftBox {
     width: 100vw;
     margin-right: 30px;
+    margin-top: 30px;
 }
 
 .services__textBackground {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     text-align: center;
+}
+
+.services__textBackground a:hover {
+    text-decoration: none;
 }
