@@ -28,6 +28,8 @@
 						<div class="footer__quotationBox">
 						<div class="contact-form" style="background:url(<?php echo get_template_directory_uri();?>/assets/images/contact-bg.png) no-repeat center center/cover;">
 							<?php the_field('contact_right_content','options'); ?>
+
+							<p class="email__warning"><em>If You Require ITAR Compliant File Transfers Do Not Upload Documents to This Form-For ITAR compliance email your files directly to <a href="mailto:quotes@pioneercuts.com">quotes@pioneercuts.com</a> </em></p>
 						</div>
 					</div>
 				</div>
@@ -89,17 +91,17 @@
 	 }
 
 	 .footer__image {
-   		 width: 10vw;
+   		 	width: 7vw;
 			margin-right: 20px;
 			height: 160px;
 		}
 
 		.footer__image img {
-			width: 10vw;
+			width: 7vw;
 		}
 
 		.footer__contentWrapper {
-			width: 19vw;
+			width: 22vw;
 			padding: 0 6px;
 		}
 
