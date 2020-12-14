@@ -1425,7 +1425,12 @@ ul.social__media li a:hover {
     width: 80vw;
     margin: 0 auto;
 }
-
+.email__warning{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
 
 
 /* About us section home page */
@@ -1457,13 +1462,19 @@ ul.social__media li a:hover {
 .about__usRightBox img.about__usImage {
     width:100vw;
     /* border: 5px solid #fff; */
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(65, 105, 225, 0.35);
+-moz-box-shadow: 10px 10px 5px 0px rgba(65, 105, 225, 0.35);
+box-shadow: 10px 10px 5px 0px rgba(65, 105, 225, 0.35);
 border-radius: 10px;    
 }
 
 .about__usLeftBox {
     width: 100vw;
     margin-right: 30px;
+}
+
+.services__textBackground {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
 }

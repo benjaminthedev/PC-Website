@@ -31,14 +31,16 @@ if( !empty($image) ): ?>
 		$args = array( 'posts_per_page' =>6, 'post_type'=> 'service','orderby'=>'menu_order','order'=>'ASC' );
 		$myposts = get_posts( $args );
 		foreach( $myposts as $post ) : setup_postdata($post); ?>
-			<div class="col-12 col-md-4">
+			<div class="col-12 col-md-3">
 				<div class="service-box" style="background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center/cover;">
 					<div class="display-table">
 						<div class="display-table-bottom">
+						<div class="services__textBackground">
 							<a href="<?php the_permalink();?>">
 								<?php the_title(); ?>
 								<i class="fa fa-long-arrow-right"></i>
 							</a>
+						   </div>
 						</div>
 					</div>
 				</div>
