@@ -40,6 +40,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<header class="site-header inner-header" id="myHeader">
 <?php endif;?>
 		<div class="container">
+		
 			<div class="row">
 				<div class="col-12 col-lg-1 align-self-center">
 			
@@ -50,39 +51,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             			</div>
 					
 				</div>
-				<div class="col-12 col-md-8 align-self-center mobile-hide">
-					<div class="main-menu">
-	                    <?php wp_nav_menu( array(
-	                        'theme_location'   =>  'mainMenu',
-	                        ));
-	                     ?>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2 mobile-hide offset-md-6">
+					<div class="telephone mt-3 p-0 text-right">
+						<i class="fa fa-phone"></i> <a id="topbar-phone" href="tel:+15177984988">(517) 798-4988</a>
 					</div>
-
-
-					<div class="telephone">
-							<i class="fa fa-phone"></i> <a id="topbar-phone" href="tel:+15177984988">(517) 798-4988</a>
-					</div>
-
 				</div>
-				<div class="col-12 col-md-3 text-right align-self-center mobile-hide">
-					<!-- <img src="https://wordpress-336467-1461132.cloudwaysapps.com/wp-content/uploads/2019/11/ITAR.png"  alt="ITAR Logo" class="itar-logo"/> -->
+				<div class="col-md-3 mobile-hide mt-1">
 					<a id="form-btn" href="<?php the_field('header_btn_link','options');?>" class="header-btn">
 						<?php the_field('header_btn_title','options'); ?>
 					</a>
 				</div>
+			</div>
+
+
+
+
+<div class="row">
+ <div class="col-12 col-md-2 ">
+	<div class="logo">
+		<a href="<?php //echo esc_url( home_url( '/' ) ); ?>">
+		<img src="https://pioneercuts.com/wp-content/uploads/2020/10/Pioneer-Cuts-logo-white.png" alt="Pioneer Cuts Logo">
+		</a>
+	</div>
+</div>
+
+	<div class="col-12 col-md-8 offset-md-1 mobile-hide">
+		<div class="main-menu">
+			<?php wp_nav_menu( array(
+				'theme_location'   =>  'mainMenu',
+				));
+			?>
+		</div>	
+	</div>	
+</div>
+
+
+
+
+
+			
 				
-					<div class="logo">
-            			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            				<!-- <img src="<?php the_field('site_logo','options'); ?>" alt="Pioneer Cuts Logo"> -->
-							<img src="https://pioneercuts.com/wp-content/uploads/2020/10/Pioneer-Cuts-logo-white.png" alt="Pioneer Cuts Logo">
-            			</a>
-					</div>		
 
-					<style>
+
 				
 
-					</style>
+			
+			
+				
+	
 
+				
 			</div>
 		</div>
 	</header>
