@@ -43,6 +43,33 @@ img {
 .section-head {
     margin-bottom: 50px;
 }
+.mv7{
+    margin-top: 100px;
+    font-size: 44px;
+    color: #292a30;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.page-id-25 .mv7{
+    margin-top: 150px;
+}
+.single-service .mv7{
+    margin-top: 60px;
+}
+.page-id-580 .mv7{
+    margin-top: 140px;
+    margin-bottom: 10px;
+}
+.page-id-50 .mv7{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-id-1134 .mv7{
+    margin-top: 180px;
+}
+
+
 .section-head h3 {
     font-size: 28px;
     color: #727683;
@@ -58,6 +85,9 @@ img {
 .py-7 {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+.page-id-229 .py-7{
+    margin-top: 80px;
 }
 #page {
     overflow: hidden;
@@ -1164,6 +1194,7 @@ h2 {
         transform: skewX(0);
     }
 }
+
 .page-template-services-php img.header-images {
     margin: 120px 0 0 0;
 }
