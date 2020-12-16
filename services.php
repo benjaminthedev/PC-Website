@@ -4,13 +4,6 @@
 get_header(); while(have_posts()): the_post(); ?>
 
 <!-- Our Company Section -->
-<div class="container">
-<?php 
-$image = get_field('background');
-if( !empty($image) ): ?>
-	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="header-images" />
-<?php endif; ?>
-</div>
 
 
 
@@ -21,6 +14,7 @@ if( !empty($image) ): ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 offset-md-3 service-head text-center">
+				<h1 class="text-center mv7"><?php the_title(); ?></h1>
 
 				<p><?php the_field('service_section_sub_title', 24); ?></p>
 			</div>

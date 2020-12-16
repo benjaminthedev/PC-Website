@@ -3,18 +3,11 @@
 
 get_header(); while(have_posts()): the_post(); ?>
 
-<!-- Our Company Section -->
-<div class="container">
-<?php 
-$image = get_field('background');
-if( !empty($image) ): ?>
-	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="header-images" />
-<?php endif; ?>
-</div>
 
 
 <section class="our-company py-150">
 	<div class="container">
+		<h1 class="text-center mv7"><?php the_title(); ?></h1>
 		<div class="row">
 			<div class="col-12 col-lg-5 align-self-center order-lg-first">
 				<?php the_field('video_link'); ?>
@@ -24,7 +17,7 @@ if( !empty($image) ): ?>
 					<div class="col-12">
 						<div class="our-company-right">
 							<div class="our-company-head">
-								<h3>About Us</h3>
+								
 								<h2><?php the_field('our_company_title', 24); ?></h2>
 							</div>
 							<div class="service-list">
