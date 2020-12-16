@@ -140,6 +140,20 @@ get_header(); ?>
 
 <!-- Capabilities Section End -->
 
+
+
+<!-- Why Choose Us? -->
+
+
+
+<!-- Why Choose Us END? -->
+
+
+
+
+
+
+
 <!-- Call to Action -->
 
 <section class="call-to-action" style="background:url(<?php the_field('cta_background');?>) no-repeat center center/cover;">

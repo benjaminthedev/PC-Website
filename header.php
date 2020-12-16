@@ -70,10 +70,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div class="row">
- <div class="col-12 col-md-2 ">
+ <div class="col-12 col-md-3">
 	<div class="logo">
-		<a href="<?php //echo esc_url( home_url( '/' ) ); ?>">
-		<img src="https://pioneercuts.com/wp-content/uploads/2020/10/Pioneer-Cuts-logo-white.png" alt="Pioneer Cuts Logo">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+			<img src="https://pioneercuts.com/wp-content/uploads/2020/12/Pioneer-Cuts-Quality-Parts-On-Your-Schedule.png" alt="Pioneer Cuts - Quality Parts On Your Schedule" />
 		</a>
 	</div>
 </div>
