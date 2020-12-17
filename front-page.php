@@ -144,7 +144,52 @@ get_header(); ?>
 
 <!-- Why Choose Us? -->
 
+<div class="wrap">
+	<h2 class="text-center mt-3">Why Choose Us?</h2>
+<div class="container">
+<div class="row">	
+	<div class="col-md-4">
+		<p>Pioneer Cuts has earned its prestigious reputation as Michigan’s premier <strong>quick turn CNC
+		machining service</strong> provider. </p>
+		
+		<p>We’re dedicated to perfection and maintain updated knowledge of
+		modern manufacturing standards. As a result, our talented team is poised to provide rapid,
+		cost-effective precision on projects big or small.</p>
+	</div>
 
+	<div class="col-md-4">
+		<p>We use state-of-the-art technologies and industry-leading tools to provide <strong>24-hour turnarounds
+		and unmatched customer support.</strong></p> 
+		
+		<p>Our knowledge of CAD and CAM programs helps us manage
+		the extremely delicate details of complex manufacturing projects. From individual goals to big
+		government contracts, we vow to treat every client like they’re the only one.</p>
+	</div>
+
+	<div class="col-md-4">
+		<p>Meanwhile, we view your objectives like they’re our own. Pioneer Cuts offers a convenient <strong>6-
+		hour quoting interface</strong> and can even hasten shipping for those who need it most.</p>
+		<p> Our professional services include CNC milling and turning, metal finishing, prototyping, assembly,
+		and inspections/certifications. That’s why we’re the state’s best full-service CNC machining
+		shop and plan to stay that way.</p>
+	</div>
+
+	<div class="col-md-12 mt-2">
+		<Our>Pioneer Cuts is staffed by a dozen dedicated machinists with nearly a half-century of combined
+		experience. <strong>We take pride in our work and prioritize your deadlines</strong> as we walk you step-by-
+		step through the entire process. Our motto is simple and necessary: Make exceptional parts on a schedule that suits you best. We raise the bar on quick turn CNC machining and welcome
+		feedback so we can continually improve our business model.</p>
+
+		<a id="form-btn" class="site-btn mb-3 mt-0">Get A Quote Now</a>
+	</div>
+
+
+
+
+
+		</div>
+	</div>
+</div>
 
 <!-- Why Choose Us END? -->
 
