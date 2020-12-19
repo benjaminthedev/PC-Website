@@ -17,11 +17,5 @@ get_header(); while(have_posts()): the_post(); ?>
 </section>
 
 
-<style>
-img.header-images {
-    margin: 120px 0 -60px 0;
-}
-</style>
-
 
  <?php get_footer(); endwhile; ?>

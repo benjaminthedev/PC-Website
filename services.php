@@ -5,17 +5,37 @@ get_header(); while(have_posts()): the_post(); ?>
 
 <!-- Our Company Section -->
 
+<div class="imageHeaderWrap">
+<?php 
+$image = get_field('background');
+if( !empty($image) ): ?>
+	<div class="hero__sectionImage" style="background-image: url(<?php echo $image['url']; ?>);">
+		<h1><?php the_title(); ?></h1>
+	</div>
+<?php endif; ?>
+</div>
 
+<style>
+.hero__sectionImage {
+ width: 99.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 38vh;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	color:#fff;
+}
+</style>
 
 
 <!-- Service Section -->
 
-<section class="service-section py-7">
+<section class="service-section">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 offset-md-3 service-head text-center">
-				<h1 class="text-center mv7"><?php the_title(); ?></h1>
-
 				<p><?php the_field('service_section_sub_title', 24); ?></p>
 			</div>
 		</div>

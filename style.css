@@ -72,6 +72,116 @@ img {
     margin-top: 10px;
 }
 
+/* Small Get A Quote Section */
+
+.small__ctaSection h5 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.small__ctaSection {
+    display: flex;
+    width:  98.9vw;
+    background: #222530;
+	margin: 0 auto;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.small__ctaSection select.wpcf7-form-control.wpcf7-select {
+    padding: 14px 0;
+}
+.small__ctaSection h5{
+	margin-bottom: 20px;
+}
+  .small__ctaSection input{
+	 padding: 12px 5px;
+ }
+ .small__ctaSection .wpcf7 form.sent .wpcf7-response-output {
+    border-color: #fff;
+    color: #fff;
+}
+
+.small__ctaSection	.left{
+		background: #222530;
+		padding: 20px;
+		/* width: 20vw; */
+		width: 20%;
+		
+	}
+
+ 	.small__ctaSection	.right{
+		background: #222530;
+		/* width:40vw; */
+		width: 80%;
+	}
+
+.small__ctaSection	.form__wrapper {
+    	display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+	}
+
+	@media only screen and (max-width: 1200px) {
+        .small__ctaSection,
+        .form__wrapper{
+            flex-direction: column !important;
+        }
+	}
+
+
+
+
+.small__ctaSection	::-webkit-input-placeholder { /* WebKit browsers */
+		color: #999 !important;
+		opacity: 1;
+	}
+.small__ctaSection	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color: #999 !important;
+		opacity: 1;
+	}
+.small__ctaSection	::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color: #999 !important;
+		opacity: 1;
+	}
+.small__ctaSection	:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color: #999 !important;
+		opacity: 1;
+	}
+
+.small__ctaSection	input.wpcf7-form-control.wpcf7-submit {
+    font-size: 17px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 12px 35px;
+    text-align: center;
+    transition: 0.5s all ease;
+    background: #4169e1;
+    background: -moz-linear-gradient(left, #4169e1 0, #1f52ea 100%);
+    background: -webkit-linear-gradient(left, #4169e1 0, #1f52ea 100%);
+    background: linear-gradient(to right, #4169e1 0, #1f52ea 100%);
+    border: 1px solid transparent;
+
+}
+.small__ctaSection input.wpcf7-form-control.wpcf7-submit:hover {
+    background: #fff;
+    color: #3863e3;
+    text-decoration: none;
+    border-color: #3863e3;
+}
+
+
+
+
+
+
 
 .section-head h3 {
     font-size: 28px;
@@ -116,9 +226,9 @@ a.site-btn.white:hover {
 .page-template-blog .blog-link {
     color: #fff;
 }
-.page-template-blog .blog-link:hover {
+/* .page-template-blog .blog-link:hover {
     color: #41e18c;
-}
+} */
 
 a#topbar-phone {
     font-size: 20px;
@@ -1096,10 +1206,7 @@ ul.sub-menu li a {
 .py-150 {
     margin: 20px 0 20px 0;
 }
-img.header-images {
-    margin: 120px 0 80px 0;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
-}
+
 h1.center {
     text-align: center;
     margin-top: 100px;
@@ -1157,52 +1264,9 @@ h2 {
 .page-template-contactus .contact-left h3 {
     display: none;
 }
-.page-template-faqs section.pages.py-4 {
-    background-color: #e9ebec;
-    border-top: 2px dashed #20222e;
-    padding-top: 100px !important;
-}
-.story {
-    list-style-type: none;
-    width: 75%;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 3px;
-    padding: 6rem;
-    padding-left: 9rem;
-    font-size: 1.6rem;
-    -webkit-transform: skewX(-12deg);
-    transform: skewX(-12deg);
-    margin-bottom: 100px;
-    border: 1px solid #20222e;
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-    transition: transform 0.3s, -webkit-transform 0.3s;
-}
-.story:hover {
-    -webkit-transform: skewX(12deg);
-    transform: skewX(12deg);
-}
-@media only screen and (max-width: 56.25em) {
-    .story {
-        width: 100%;
-        padding: 4rem;
-        padding-left: 7rem;
-    }
-}
-@media only screen and (max-width: 37.5em) {
-    .story {
-        -webkit-transform: skewX(0);
-        transform: skewX(0);
-    }
-}
 
-.page-template-services-php img.header-images {
-    margin: 120px 0 0 0;
-}
+
+
 .site-footer {
     background: #e9ebec;
     padding-top: 70px;
