@@ -3,15 +3,37 @@
 
 get_header(); while(have_posts()): the_post(); ?>
 
+<div class="imageHeaderWrap">
+<?php 
+$image = get_field('background');
+if( !empty($image) ): ?>
+	<div class="hero__sectionImage" style="background-image: url(<?php echo $image['url']; ?>);">
+		<h1><?php the_title(); ?></h1>
+	</div>
+<?php endif; ?>
+</div>
+
+<style>
+.hero__sectionImage {
+ width: 99.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 38vh;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	color:#fff;
+}
+</style>
 
 
 
 
-<section class="pages py-4">
+
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<!-- <h1 class="text-center mv7"><?php //the_title(); ?></h1> -->
 				<?php the_content(); ?>
 			</div>
 		</div>
@@ -24,12 +46,12 @@ get_header(); while(have_posts()): the_post(); ?>
 
 <!-- Testimonial Section -->
 
-<section class="testimonial-section py-7" style="background:#EEF0F0 url(<?php echo get_template_directory_uri();?>/assets/images/map.png) no-repeat center center;">
+<section class="testimonial-section" style="background:#EEF0F0 url(<?php echo get_template_directory_uri();?>/assets/images/map.png) no-repeat center center;">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="section-head text-center">
-					<h1><?php the_field('testimonial_title', 24); ?></h1>
+					<h1><?php //the_field('testimonial_title', 24); ?></h1>
 				</div>
 			</div>
 		</div>
@@ -67,6 +89,14 @@ get_header(); while(have_posts()): the_post(); ?>
 </section>
 
 <!-- Testimonial Section End -->
+
+
+<!-- Small CTA -->
+
+<div class="small__ctaSection">	
+		<h5>Get A Free Quote</h5>	
+		<?php echo do_shortcode('[contact-form-7 id="2628" title="Small Get Quote"]'); ?>
+</div> 
 
 
 <!-- Call to Action -->
