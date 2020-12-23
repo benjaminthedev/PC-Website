@@ -225,11 +225,7 @@ a.site-btn.white:hover {
 }
 .page-template-blog .blog-link {
     color: #fff;
-}
-/* .page-template-blog .blog-link:hover {
-    color: #41e18c;
-} */
-
+} 
 a#topbar-phone {
     font-size: 20px;
     color: #fff;
@@ -1606,4 +1602,24 @@ ul.social__media li a:hover {
 
 .services__textBackground a:hover {
     text-decoration: none;
+}
+
+
+/* Related  */
+
+.related-post .headline {
+    font-size: 18px;
+    margin: 50px 0 0px 0;
+    font-weight: bold;
+}
+
+.related-post .post-list .item .post_title {
+    font-size: 20px;
+    color: #3f3f3f;
+    margin: 10px 0px;
+    padding: 0px;
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+    min-height: 80px;
 }
